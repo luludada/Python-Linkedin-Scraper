@@ -51,9 +51,9 @@ def setup_auth():
     try:
         driver.get("https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&fromSignIn=true&trk=cold_join_sign_in")
         username = driver.find_element_by_id("username")                                                                                           
-        username.send_keys('glorialiu185@gmail.com')                                                                                              
+        username.send_keys('username@gmail.com')                                                                                              
         password = driver.find_element_by_id("password")                                                                                          
-        password.send_keys("960320Kkxx.")       
+        password.send_keys("password")       
         driver.find_element_by_tag_name("button").click()                                                                                                                
         if driver.current_url == 'https://www.linkedin.com/checkpoint/lg/login-submit':
             driver.quit()
