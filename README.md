@@ -18,7 +18,7 @@ Thanks to David Craven's [article](https://www.linkedin.com/pulse/how-easy-scrap
 1. In order to scrape LinkedIn profiles, you need to make sure the scraper is logged-in into LinkedIn. 
 2. Install [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/downloads).
 3. Install prerequisite for Python3
-    ```Python
+    ```
     pip3 install selenium
     pip3 install csv
     pip3 install time
@@ -30,5 +30,5 @@ Thanks to David Craven's [article](https://www.linkedin.com/pulse/how-easy-scrap
     
 ## Usage
  ```Python
- python3 linkedin-scraper.py example.csv
+ python3 linkedin-scraper.py
  ```
