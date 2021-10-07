@@ -1,5 +1,5 @@
 # Python-Linkedin-Scraper
-Python LinkedIn Scraper (currently working 2020)
+Python LinkedIn Scraper (currently working 2021)
 * Supports Python3. 
 
 This scraper will take a list of linkedin profile urls in csv file. 
