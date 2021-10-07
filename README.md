@@ -32,3 +32,10 @@ Thanks to David Craven's [article](https://www.linkedin.com/pulse/how-easy-scrap
  ```Python
  python3 linkedin-scraper.py
  ```
+ 
+ ## Format
+ In order to make the csv more readable, use arrange.py to reconstruct the column order. 
+ ## Usage
+ ```Python
+ python3 arrange.py
+ ```
